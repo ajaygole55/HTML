@@ -1,0 +1,230 @@
+*{
+ margin: 0;
+}
+#container{
+    margin: auto;
+    width: 95%;
+    height: auto;
+    background-color: rgb(241, 238, 234);
+}
+#header{
+    height: 60px;
+
+    padding-top: 10px;
+
+}
+#logo{
+    height: 70px;
+
+}
+#humber{
+    visibility: hidden;
+}
+#humber_img{
+margin-top: -100px;
+display: none;
+    
+}
+#nav{
+    z-index: 1;
+    position: sticky;
+    top:0;
+    height:60px;
+    background-color: goldenrod;
+
+}
+#nav ul{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    
+}
+#nav ul li{
+    display: inline;
+    margin-left: 100px;
+
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+    font-family: canadara;
+  
+}
+#nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#nav ul li ul{
+        display: none;
+    } 
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: goldenrod;
+    width: 150px;
+    margin-left: 350px;
+}  
+#nav ul li ul li{
+    line-height: 40px;
+    margin-left: -3px;
+}  
+
+
+ #box{
+    height:500px;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+#box1,#box2,#box3{
+    height:400px;
+    width:400px;
+    margin:25px;
+        float: left;
+}
+#boximg{
+    height:400px;
+    width:400px;
+    float: left;
+} 
+#leftbtn{
+    height:33px;
+    width: 33px;
+    background-color: green;
+    color:white;
+    border:0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#rightbtn{
+    height:33px;
+    width: 33px;
+    background-color: red;
+    color:white;
+    border:0px;
+    margin-top: 20px;
+}
+#about{
+    height: 410px;
+    font-family: candara;
+    margin-top: 20px;
+
+}
+#about1{
+    height: 350;
+    width: 350;
+    float: left;
+    margin-left: 10px;
+}
+#aboutbanner{
+    
+    height: 350px;
+    width: 350;
+    
+}
+#about2{
+    float: left;
+    margin: 10px;
+    height:290px;
+    text-align: justify;
+    font-size: 18px;
+    width: 710px;
+    padding: 20px;
+}
+#Gallery{
+    height:450px;
+   background-color: whitesmoke;
+    padding: 20px;
+    font-family: candara;
+}
+#G_img1{
+    margin-top: 40px;
+    height: 350;
+    width: 350px;
+    margin-left: 60px;
+    border-radius: 50%;
+    transition: 1s;
+}
+#G_img1:hover{
+  transform: scale(1.2);
+  box-shadow: 1px 5px 20px 1px goldenrod;
+}
+#contact
+{
+    height: 400px;
+    padding: 30px;
+    padding-left: 100px;
+    background-color: black;
+    color: white;
+
+}
+#contact1 {
+    height: 290px;
+    width: 200px;
+    font-size: 20px;
+    font-family: candara;
+    float:left;
+    margin-left: 50px;
+    
+} 
+ #contact2 {
+    height: 290px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: candara;
+    float:left;
+
+    
+} 
+#contact3  {
+    height: 330px;
+    width: 200px;
+    font-size: 20px;
+    font-family: candara;
+    float:left;
+    margin-left: 50px;
+
+     line-height: 30px;
+
+}
+#contact4{
+    float:left;
+    height: 330px;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+
+#contact1 ul {
+    float: left;
+    list-style: none;
+    margin-left: 5px;
+    padding-left: 45px;
+    line-height: 35px;
+    padding-top: 5px;
+
+}
+
+#contact2 ul {
+    float: left;
+    list-style: none;
+    margin-left: 5px;
+    line-height: 35px;
+    padding-left: 45px;
+    margin-top: 0;
+}
+
+#contact4 iframe{
+    margin-left:5px;
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+#footer{
+    height: 30px;
+
+}
